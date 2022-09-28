@@ -1,7 +1,7 @@
 {
     "schemaVersion": "2021-11-01",
     "name": "AWS Well-Architected SAP Lens v2.0 - Rel.2022-10-01",
-    "description": "The SAP Lens for the AWS Well Architected Framework is a collection of customer-proven design principles and best practices for ensuring SAP workloads on AWS are well-architected. Use this custom lens as a supplement to the AWS Well-Architected Framework.",
+    "description": "The SAP Lens for the AWS Well Architected Framework is a collection of customer-proven design principles and best practices for ensuring SAP workloads on AWS are well-architected. Use this custom lens as a supplement to the AWS Well-Architected Framework. Ref: https://github.com/aws-samples/aws-sap-lens-well-architected",
     "pillars": [
       {
         "id": "wafsap_0_prep",
