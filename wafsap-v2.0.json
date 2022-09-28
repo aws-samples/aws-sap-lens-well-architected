@@ -4,6 +4,121 @@
     "description": "This describes the SAP Lens (v2)for the AWS Well-Architected Framework. It is a collection of customer-proven design principles and best practices for ensuring SAP workloads on AWS are well-architected. Use the SAP Lens as a supplement to the AWS Well-Architected Framework, which provides the foundations for building secure, high-performing, resilient, and efficient applications and workloads on AWS. Note: Always download the latest version of the lens from: https://github.com/aws-samples/aws-sap-lens-well-architected",
     "pillars": [
       {
+        "id": "wafsap_0_prep",
+        "name": "Preparation",
+        "questions": [
+          {
+            "id": "wafsap_prep_dp1",
+            "title": "Preparation for your SAP Workload review",
+            "description": "Have you taken the necessary preparation steps for a SAP Lens Well-Architected review?  The following items should be reviewed before kicking off your architecture review activities.",
+            "choices": [
+              {
+                "id": "wafsap_prep_dp1_bp1",
+                "title": "Familiarize yourself with the SAP Lens whitepaper and the broader AWS Well-Architected Framework and pillar whitepapers.",
+                "helpfulResource": {
+                  "displayText": "The SAP Lens is a collection of customer-proven design principles and best practices for ensuring SAP workloads on AWS are well-architected. Use the SAP Lens as a supplement to the AWS Well-Architected Framework, which provides the foundations for building secure, high-performing, resilient, and efficient applications and workloads on AWS. The SAP Lens whitepaper provides additional detail and suggestions over and above what is included in this tool and is linked to in each best practice checklist item.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/sap-lens.html"
+                }, "improvementPlan": {
+                  "displayText": "Familiarize yourself with the SAP Lens whitepaper and the broader AWS Well-Architected Framework and pillar whitepapers.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/sap-lens.html"
+                }
+              },
+              {
+                "id": "wafsap_prep_dp1_bp2",
+                "title": "Gather your SAP-specific design documentation, operational procedures, and monitoring history.",
+                "helpfulResource": {
+                  "displayText": "   Key workload documents required for review include: An overview document describing the functions of existing SAP systems, an architectural diagram of your SAP landscape on AWS and Technical Architecture documentation for the systems in scope explaining relevant technical decisions and trade-offs that may have been made during implementation.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/workload-context-checklist.html"
+                }, "improvementPlan": {
+                  "displayText": "Gather your SAP-specific design documentation, operational procedures, and monitoring history.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/workload-context-checklist.html"
+                }
+              },
+              {
+                "id": "wafsap_prep_dp1_bp3",
+                "title": "Schedule workload review sessions and invite appropriate SAP stakeholders.",
+                  "helpfulResource": {
+                  "displayText": "Schedule your SAP workload review sessions with SAP stakeholders. Typical roles involved with the workload review are the SAP Application Owner, Cloud Lead, SAP Basis/Operations Lead, Security Lead, Change Management Lead and Infrastructure Lead.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/how-to-use-the-lens.html"
+                }, "improvementPlan": {
+                  "displayText": "Schedule workload review sessions and invite appropriate SAP stakeholders.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/how-to-use-the-lens.html"
+                }
+              },
+              {
+                "id": "wafsap_prep_dp1_bp4",
+                "title": "Establish an owner for the review.",
+                  "helpfulResource": {
+                  "displayText": "Establish an owner for the SAP Workload review who is responsible for driving next steps for identified actions and reporting on progress of completion.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/workload-context-checklist.html"
+                }, "improvementPlan": {
+                  "displayText": "Establish an owner for the review.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/workload-context-checklist.html"
+                }
+              },
+                {
+                "id": "wafsap_prep_dp1_bp5",
+                "title": "Agree on the approach to capture actions from the review and drive resolution.",
+                  "helpfulResource": {
+                  "displayText": "How will you capture actions and next steps from this review? If using the Well Architected tool, you can share this report with other AWS accounts or export a report to PDF. When will you do your next review?",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/how-to-use-the-lens.html"
+                }, "improvementPlan": {
+                  "displayText": "Agree on the approach to capture actions from the review and drive resolution.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/how-to-use-the-lens.html"
+                }
+              },
+              {
+                "id": "wafsap_prep_dp1_bp6",
+                "title": "Review SAP Lens definitions for common understanding of terminology.",
+                  "helpfulResource": {
+                  "displayText": " Establish a common vocabulary for the review, agreeing on the definition of terms such as 'systems', 'landscapes', 'environments' etc.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/definitions.html"
+                }, "improvementPlan": {
+                  "displayText": "Review SAP Lens definitions for common understanding of terminology.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/definitions.html"
+                }
+              },
+              {
+                "id": "wafsap_prep_dp1_bp7",
+                "title": "Ensure you are using the latest version of the SAP custom lens.",
+                  "helpfulResource": {
+                  "displayText": "The SAP custom lens template (JSON) may have been updated to reflect changes to the SAP Lens whitepaper; please confirm you are using the latest version from the AWS repository.",
+                  "url": "https://github.com/aws-samples/aws-sap-lens-well-architected"
+                }, "improvementPlan": {
+                  "displayText": "Ensure you are using the latest version of the SAP custom lens.",
+                  "url": "https://github.com/aws-samples/aws-sap-lens-well-architected"
+                }
+              },
+              {
+                "id": "wafsap_prep_dp1_bp8",
+                "title": "Collect feedback or questions about the SAP Lens as you proceed with your review.",
+                  "helpfulResource": {
+                  "displayText": "The SAP Lens for Well-Architected is an evolving AWS product. As you run through your SAP workload review, note down any areas for improvement or feedback for the AWS team. Feedback can be submitted to the lens authors via the SAP Lens customer feedback survey or questions can be posted to the SAP on AWS re:Post topic.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/providing-feedback.html"
+                }, "improvementPlan": {
+                  "displayText": "Collect feedback or questions about the SAP Lens as you proceed with your review.",
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/providing-feedback.html"
+                }
+              },
+              {
+              "id": "option_sust1_no",
+              "title": "None of these",
+              "helpfulResource": {
+                "displayText": "Choose this if your preparation has not completed any of the above.",
+                "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/sap-lens.html"
+                }
+              }
+            ],
+            "riskRules": [
+              {
+                "condition": "default",
+                "risk": "NO_RISK"
+              }
+            ] 
+          }
+        ]
+      },
+      {
         "id": "wafsap_1_ops",
         "name": "Operational excellence",
         "questions": [
@@ -1793,7 +1908,7 @@
             "choices": [
               {
                 "id": "wafsap_sust_dp21_bp1",
-                "title": "Best Practice 21.1 - Understand & influence business requirements to make sustainability-centric SAP design decisions (Required)",
+                "title": "Understand & influence business requirements to make sustainability-centric SAP design decisions (Required)",
                 "helpfulResource": {
                   "displayText": "Business leaders and SAP architecture teams must make conscious decisions to design their SAP environments in a more sustainable fashion. They must understand and justify the rationale behind those choices. If business leaders cannot describe what tradeoffs they must make in the language of sustainability and energy efficiency, they will have difficulty making decisions based on those criteria. Production SAP workloads are mission critical to most businesses who run SAP, with companies often prioritizing reliability and performance efficiency over infrastructure costs. While prioritizing sustainability almost always results in cloud infrastructure cost reductions, it might not create overall cost savings for an SAP workload. Running SAP workloads in a more sustainable fashion in AWS can increase the costs of software, personnel, or overall business functions. To meet sustainability goals, these tradeoffs along with other priorities must be clearly articulated, agreed upon, and measurable. (Best Practice 21.1)",
                   "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.1---understand-and-influence-business-requirements-to-make-sustainability-centric-sap-design-decisions.html"
@@ -1804,7 +1919,7 @@
               },
               {
                 "id": "wafsap_sust_dp21_bp2",
-                "title": "Best Practice 21.2 - Implement sustainability improvements for SAP software and underlying infrastructure (Required)",
+                "title": "Implement sustainability improvements for SAP software and underlying infrastructure (Required)",
                 "helpfulResource": {
                   "displayText": "After the business requirements and criteria for sustainability improvements have been defined, the SAP architect team must implement them. Given that in most cases with standard SAP architectural patterns (except for those called out in the following sections), the recommendations in the SAP Lens cost optimization pillar directly align with sustainability best practices. We will not duplicate those suggestions here and refer you to the cost optimization pillar for guidance. (Best Practice 21.2)",
                   "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.2---implement-sustainability-improvements-for-sap-software-and-underlying-infrastructure.html"
@@ -1815,7 +1930,7 @@
               },
               {
                 "id": "wafsap_sust_dp21_bp3",
-                "title": "Best Practice 21.3 - Implement sustainability monitoring for infrastructure and SAP (Required)",
+                "title": "Implement sustainability monitoring for infrastructure and SAP (Required)",
                   "helpfulResource": {
                   "displayText": "Monitoring and reporting on the sustainability of SAP workloads in the AWS Cloud provides a crucial feedback mechanism. Such monitors indicate how suggestions you’ve implemented translate into quantifiable changes over time. This data also feeds into the sustainability reporting that will be delivered to shareholders, regulators, and sustainability-minded customers. Reports using the metrics discussed in BP 21.1 (for example, cost and usage as proxy metrics) can demonstrate improvements made in the operational sustainability of your SAP landscape. This can demonstrate that you are successfully achieving the goals set by your overall corporate sustainability strategy. (Best Practice 21.3)",
                   "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.3---implement-sustainability-monitoring-for-infrastructure-and-sap.html"
