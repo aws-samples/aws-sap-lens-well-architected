@@ -1,7 +1,7 @@
 {
     "schemaVersion": "2021-11-01",
     "name": "AWS Well-Architected SAP Lens v2.0 - Rel.2022-10-01",
-    "description": "This describes the SAP Lens (v2)for the AWS Well-Architected Framework. It is a collection of customer-proven design principles and best practices for ensuring SAP workloads on AWS are well-architected. Use the SAP Lens as a supplement to the AWS Well-Architected Framework, which provides the foundations for building secure, high-performing, resilient, and efficient applications and workloads on AWS. Note: Always download the latest version of the lens from: https://github.com/aws-samples/aws-sap-lens-well-architected",
+    "description": "The SAP Lens for the AWS Well Architected Framework is a collection of customer-proven design principles and best practices for ensuring SAP workloads on AWS are well-architected. Use this custom lens as a supplement to the AWS Well-Architected Framework.",
     "pillars": [
       {
         "id": "wafsap_0_prep",
@@ -71,7 +71,7 @@
                 "id": "wafsap_prep_dp1_bp6",
                 "title": "Review SAP Lens definitions for common understanding of terminology.",
                   "helpfulResource": {
-                  "displayText": " Establish a common vocabulary for the review, agreeing on the definition of terms such as 'systems', 'landscapes', 'environments' etc.",
+                  "displayText": "Establish a common vocabulary for the review, agreeing on the definition of terms such as 'systems', 'landscapes', 'environments' etc.",
                   "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/definitions.html"
                 }, "improvementPlan": {
                   "displayText": "Review SAP Lens definitions for common understanding of terminology.",
