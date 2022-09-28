@@ -27,7 +27,7 @@
                 "id": "wafsap_prep_dp1_bp2",
                 "title": "Gather your SAP-specific design documentation, operational procedures, and monitoring history.",
                 "helpfulResource": {
-                  "displayText": "   Key workload documents required for review include: An overview document describing the functions of existing SAP systems, an architectural diagram of your SAP landscape on AWS and Technical Architecture documentation for the systems in scope explaining relevant technical decisions and trade-offs that may have been made during implementation.",
+                  "displayText": "Key workload documents required for review include: An overview document describing the functions of existing SAP systems, an architectural diagram of your SAP landscape on AWS and Technical Architecture documentation for the systems in scope explaining relevant technical decisions and trade-offs that may have been made during implementation.",
                   "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/workload-context-checklist.html"
                 }, "improvementPlan": {
                   "displayText": "Gather your SAP-specific design documentation, operational procedures, and monitoring history.",
