@@ -1911,10 +1911,10 @@
                 "title": "Understand & influence business requirements to make sustainability-centric SAP design decisions (Required)",
                 "helpfulResource": {
                   "displayText": "Business leaders and SAP architecture teams must make conscious decisions to design their SAP environments in a more sustainable fashion. They must understand and justify the rationale behind those choices. If business leaders cannot describe what tradeoffs they must make in the language of sustainability and energy efficiency, they will have difficulty making decisions based on those criteria. Production SAP workloads are mission critical to most businesses who run SAP, with companies often prioritizing reliability and performance efficiency over infrastructure costs. While prioritizing sustainability almost always results in cloud infrastructure cost reductions, it might not create overall cost savings for an SAP workload. Running SAP workloads in a more sustainable fashion in AWS can increase the costs of software, personnel, or overall business functions. To meet sustainability goals, these tradeoffs along with other priorities must be clearly articulated, agreed upon, and measurable. (Best Practice 21.1)",
-                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.1---understand-and-influence-business-requirements-to-make-sustainability-centric-sap-design-decisions.html"
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.1.html"
                 }, "improvementPlan": {
                   "displayText": "Best Practice 21.1 - Understand and influence business requirements to make sustainability-centric SAP design decisions",
-                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.1---understand-and-influence-business-requirements-to-make-sustainability-centric-sap-design-decisions.html"
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.1.html"
                 }
               },
               {
@@ -1922,10 +1922,10 @@
                 "title": "Implement sustainability improvements for SAP software and underlying infrastructure (Required)",
                 "helpfulResource": {
                   "displayText": "After the business requirements and criteria for sustainability improvements have been defined, the SAP architect team must implement them. Given that in most cases with standard SAP architectural patterns (except for those called out in the following sections), the recommendations in the SAP Lens cost optimization pillar directly align with sustainability best practices. We will not duplicate those suggestions here and refer you to the cost optimization pillar for guidance. (Best Practice 21.2)",
-                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.2---implement-sustainability-improvements-for-sap-software-and-underlying-infrastructure.html"
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.2.html"
                 }, "improvementPlan": {
                   "displayText": "Best Practice 21.2 - Implement sustainability improvements for SAP software and underlying infrastructure",
-                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.2---implement-sustainability-improvements-for-sap-software-and-underlying-infrastructure.html"
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.2.html"
                 }
               },
               {
@@ -1933,10 +1933,10 @@
                 "title": "Implement sustainability monitoring for infrastructure and SAP (Required)",
                   "helpfulResource": {
                   "displayText": "Monitoring and reporting on the sustainability of SAP workloads in the AWS Cloud provides a crucial feedback mechanism. Such monitors indicate how suggestions you’ve implemented translate into quantifiable changes over time. This data also feeds into the sustainability reporting that will be delivered to shareholders, regulators, and sustainability-minded customers. Reports using the metrics discussed in BP 21.1 (for example, cost and usage as proxy metrics) can demonstrate improvements made in the operational sustainability of your SAP landscape. This can demonstrate that you are successfully achieving the goals set by your overall corporate sustainability strategy. (Best Practice 21.3)",
-                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.3---implement-sustainability-monitoring-for-infrastructure-and-sap.html"
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.3.html"
                 }, "improvementPlan": {
                   "displayText": "Best Practice 21.3 - Implement sustainability monitoring for infrastructure and SAP",
-                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.3---implement-sustainability-monitoring-for-infrastructure-and-sap.html"
+                  "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-21.3.html"
                 }
               },
               {
