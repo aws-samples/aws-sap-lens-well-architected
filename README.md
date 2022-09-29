@@ -1,4 +1,4 @@
-## AWS SAP Lens for Well Architected
+## AWS SAP Lens for Well-Architected
 
 This repository holds the latest version of the SAP Lens for the AWS Well-Architected Framework.  The Lens is for AWS  customers and partners to use when assessing SAP Workloads for best practices and design principles according to the AWS Well-Architected framework. 
 
