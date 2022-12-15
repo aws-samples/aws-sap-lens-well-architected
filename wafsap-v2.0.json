@@ -1522,13 +1522,13 @@
             "choices": [
               {
                 "id": "wafsap_cost_dp17_bp1",
-                "title": "Evaluate your use of SAP-managed service offerings (Required)",
+                "title": "Evaluate your use of managed service offerings (Required)",
                 "description": "Per the AWS shared responsibility model, the customer has the responsibility of managing their SAP workloads on AWS. Optionally, a service provider can be used to manage your SAP workloads on AWS. When evaluating a service provider, the responsibility of both upfront and ongoing cost management should be delegated appropriately and should be treated as an ongoing process. Several AWS partners provide services for the deployment and operation of your SAP landscape. The scope and maturity of services provided varies across partners. These types of services can provide efficiencies, for example, centralized support or automated deployment services. These can reduce your overall costs and should be evaluated based on your specific business requirements. Evaluate partners for AWS competencies including from the SAP Consulting Competency and the AWS Partner Network (APN).",
                 "helpfulResource": {
                   "displayText": "Per the AWS shared responsibility model, the customer has the responsibility of managing their SAP workloads on AWS. Optionally, a service provider can be used to manage your SAP workloads on AWS. When evaluating a service provider, the responsibility of both upfront and ongoing cost management should be delegated appropriately and should be treated as an ongoing process. Several AWS partners provide services for the deployment and operation of your SAP landscape. The scope and maturity of services provided varies across partners. These types of services can provide efficiencies, for example, centralized support or automated deployment services. These can reduce your overall costs and should be evaluated based on your specific business requirements. Evaluate partners for AWS competencies including from the SAP Consulting Competency and the AWS Partner Network (APN). (Best Practice 17.1)",
                   "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-17-1.html"
                 }, "improvementPlan": {
-                  "displayText": "Best Practice 17.1 - Evaluate your use of SAP-managed service offerings",
+                  "displayText": "Best Practice 17.1 - Evaluate your use of managed service offerings",
                   "url": "https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/best-practice-17-1.html"
                 }
               },
